@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- google fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Syncopate:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+
+        <!-- title -->
+        <title>Background Remover</title>
+        <!-- tailwind output -->
+        <link rel="stylesheet" href="./output.css" />
+    </head>
+    <body
+        class="bg-gray-900 min-h-screen w-full flex flex-col justify-center items-center py-8"
+    >
+        <!-- bg remove box -->
+        <div class="p-8 bg-gray-800 rounded-2xl">
+            <h1 class="text-2xl font-semibold pb-4 text-gray-300">
+                Background Remover
+            </h1>
+            <form action="" class="" method="post">
+                <input
+                    type="file"
+                    class="bg-gray-700 text-gray-300 p-2 rounded-md w-full block"
+                    id="filepicker"
+                />
+                <div class="flex justify-between items-center">
+                    <button type="button" class="blue-btn" id="upload">
+                        Upload
+                    </button>
+                    <button type="button" class="green-btn" id="download">
+                        Download
+                    </button>
+                </div>
+            </form>
+        </div>
+        <!-- bg remove box -->
+
+        <!-- javascript connected here -->
+        <script src="./assets/js/script.js"></script>
+    </body>
+</html>
